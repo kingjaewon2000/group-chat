@@ -1,11 +1,11 @@
-package com.example.groupchat
+package com.example.consumerserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GroupChatApplication
+class ConsumerServerApplication
 
 fun main(args: Array<String>) {
-    runApplication<GroupChatApplication>(*args)
+    runApplication<ConsumerServerApplication>(*args)
 }
