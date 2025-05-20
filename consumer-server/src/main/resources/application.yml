@@ -1,1 +1,5 @@
-spring.application.name=consumer-server
+spring:
+  application:
+    name: consumer-server
+server:
+  port: 8082
