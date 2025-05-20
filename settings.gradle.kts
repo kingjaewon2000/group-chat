@@ -1,5 +1,10 @@
 rootProject.name = "group-chat"
 
+include("core")
+include("api-server")
+include("chat-server")
+include("consumer-server")
+
 pluginManagement {
     val kotlinVersion: String by settings
     val springBootVersion: String by settings
